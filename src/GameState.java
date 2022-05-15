@@ -1,4 +1,4 @@
 
 public enum GameState {
-	Playing, Draw, Cross_won, Nought_won;
+	Playing, It is a Draw, Cross has won, Nought has won;
 }
