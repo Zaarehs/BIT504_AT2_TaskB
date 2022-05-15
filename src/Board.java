@@ -39,9 +39,9 @@ public class Board {
 		
 	}
 	 public static JButton[]   xWins(JButton[] buttons,int x1, int x2, int x3) {//seprate function for deciding the that Xwins 
-	        buttons[x1].setBackground(Color.RED);
-	        buttons[x2].setBackground(Color.RED);
-	        buttons[x3].setBackground(Color.RED);
+	        buttons[x1].setBackground(Color.BLUE);
+	        buttons[x2].setBackground(Color.BLUE);
+	        buttons[x3].setBackground(Color.BLUE);
 
 	        for (int i = 0; i < 9; i++) {
 	            buttons[i].setEnabled(false);
@@ -51,9 +51,9 @@ public class Board {
 	    }
 
 	    public  static JButton[] oWins(JButton[] buttons,int x1, int x2, int x3) {//seprate function for deciding that o wins 
-	        buttons[x1].setBackground(Color.RED);
-	        buttons[x2].setBackground(Color.RED);
-	        buttons[x3].setBackground(Color.RED);
+	        buttons[x1].setBackground(Color.BLUE);
+	        buttons[x2].setBackground(Color.BLUE);
+	        buttons[x3].setBackground(Color.BLUE);
 
 	        for (int i = 0; i < 9; i++) {
 	            buttons[i].setEnabled(false);
